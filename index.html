@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola Mundo</title>
+    <title>Trazabilidad de Agentes</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f9f9f9; }
+        h1 { color: #333; }
+        table { border-collapse: collapse; width: 100%; max-width: 700px; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 10px 14px; text-align: left; }
+        th { background: #4a90d9; color: #fff; }
+        tr:nth-child(even) { background: #eef3f8; }
+        tr:hover { background: #d4e4f5; }
+    </style>
 </head>
 <body>
-    <h1>Hola Mundo</h1>
+    <h1>Trazabilidad de Agentes</h1>
+    <p>Tabla con las trazas de cada agente en el flujo de creación del proyecto.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Agente</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bestia</td>
+                <td>Supervisó el circuito, mejoró el encargo del usuario y delegó a planner</td>
+            </tr>
+            <tr>
+                <td>Planner</td>
+                <td>Recibió el encargo, planificó la tarea y delegó a los agentes correctos</td>
+            </tr>
+            <tr>
+                <td>Executor</td>
+                <td>Implementó la web (index.html), creó el test (test_hola_mundo.py)</td>
+            </tr>
+            <tr>
+                <td>Reviewer</td>
+                <td>Revisó el resultado y validó el test</td>
+            </tr>
+            <tr>
+                <td>Publisher</td>
+                <td>Creó el repo en GitHub, subió el código y cerró con el OK</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
